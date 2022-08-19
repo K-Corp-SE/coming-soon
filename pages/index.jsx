@@ -3,6 +3,7 @@ import {
   Box,
   Button,
   Container,
+  Flex,
   Heading,
   Image,
   Stack,
@@ -13,7 +14,7 @@ import { ChakraProvider } from "@chakra-ui/react";
 export default function HomePage() {
   return (
     <ChakraProvider>
-      <Box bg="linear-gradient(#000000, #2C3E50)">
+      <Flex bg="linear-gradient(#000000, #2C3E50)">
         <Container w="container.lg" color="white" textAlign="center">
           <Stack justifyItems="flex-end" minHeight="100vh">
             <Stack flex="1" justify="center">
@@ -60,7 +61,7 @@ export default function HomePage() {
             </Box>
           </Stack>
         </Container>
-      </Box>
+      </Flex>
     </ChakraProvider>
   );
 }
