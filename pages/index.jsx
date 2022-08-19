@@ -56,7 +56,7 @@ export default function HomePage() {
             </Stack>
 
             <Box pb="4" px="4" textAlign="center">
-              <Image src={"/images/hyuna.png"} width="200px" marginX="auto" />
+              <Image src={"/hyuna.png"} width="200px" marginX="auto" />
             </Box>
           </Stack>
         </Container>
